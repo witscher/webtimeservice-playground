@@ -9,6 +9,7 @@ import (
 func helloWorld(w http.ResponseWriter, r *http.Request) {
 	t := time.Now()
 	fmt.Fprintf(w, t.String())
+
 }
 
 func main() {
